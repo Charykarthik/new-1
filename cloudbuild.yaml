@@ -1,11 +1,11 @@
 steps:
 - name: gcr.io/cloud-builders/gcloud
-args:
-- functions
-- deploy
-- transferData
-- async
-- --source=.
-- --runtime=nodejs18
-- --trigger-bucket=buk-temp
--  --allow-unauthenticated
+  args:
+  - functions
+  - deploy
+  - transferData
+  - async
+  - --source=.
+  - --runtime=nodejs18
+  - --trigger-bucket=buk-temp
+  -  --allow-unauthenticated
