@@ -6,4 +6,5 @@ steps:
   - transferData
   - --runtime=nodejs10
   - --trigger-bucket=buk-temp
+  -  --allow-unauthenticated
 
