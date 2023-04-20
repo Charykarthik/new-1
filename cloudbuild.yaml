@@ -3,6 +3,7 @@ steps:
 args:
 - functions
 - deploy
+- transferData
 - async
 - --source=.
 - --runtime=nodejs10
