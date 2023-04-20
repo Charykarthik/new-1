@@ -4,6 +4,7 @@ args:
 - functions
 - deploy
 - transferData
+- --source=.
 - --runtime=nodejs10
 - --trigger-bucket=buk-temp
-- --memory=1GB
+-  --allow-unauthenticated
