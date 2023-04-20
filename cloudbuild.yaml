@@ -4,7 +4,6 @@ steps:
   - functions
   - deploy
   - transferData
-  - async
   - --source=.
   - --runtime=nodejs18
   - --trigger-bucket=buk-temp
