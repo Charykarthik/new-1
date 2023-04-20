@@ -4,7 +4,6 @@ steps:
   - functions
   - deploy
   - transferData
-  - --source=.
-  - --runtime=nodejs18
+  - --runtime=nodejs10
   - --trigger-bucket=buk-temp
-  -  --allow-unauthenticated
+
