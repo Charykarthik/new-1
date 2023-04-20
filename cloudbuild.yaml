@@ -1,0 +1,9 @@
+steps:
+- name: gcr.io/cloud-builders/gcloud
+args:
+- functions
+- deploy
+- transferData
+- --runtime=nodejs10
+- --trigger-bucket=buk-temp
+- --memory=1GB
