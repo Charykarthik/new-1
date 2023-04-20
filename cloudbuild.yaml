@@ -6,6 +6,6 @@ args:
 - transferData
 - async
 - --source=.
-- --runtime=nodejs10
+- --runtime=nodejs18
 - --trigger-bucket=buk-temp
 -  --allow-unauthenticated
