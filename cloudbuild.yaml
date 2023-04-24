@@ -5,6 +5,6 @@ steps:
   - deploy
   - transferData
   - --runtime=nodejs10
-  - --trigger-bucket=buk-temp
+  - --trigger-bucket=sceg_karthik
  
 
