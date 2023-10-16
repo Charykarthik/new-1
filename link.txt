@@ -1,0 +1,1 @@
+https://github.com/CloudNativeTech/terraform-module-gcs/blob/master/examples/storage_no_versioning/example.tfvars
